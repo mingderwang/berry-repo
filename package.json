@@ -1,0 +1,19 @@
+{
+  "name": "berry-monorepo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs": "npx typedoc",
+    "show:docs": "npx http-server ./docs"
+  },
+  "devDependencies": {
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  }
+}
