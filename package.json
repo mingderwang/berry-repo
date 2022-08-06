@@ -1,9 +1,13 @@
 {
-  "name": "berry-monorepo",
-  "version": "0.0.1",
+  "name": "berry-repo",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingderwang/berry-repo.git"
+  },
   "scripts": {
     "docs": "npx typedoc",
     "show:docs": "npx http-server ./docs"

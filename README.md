@@ -1,4 +1,4 @@
-# ts template
+# ts packages template
 
 ## features
 
