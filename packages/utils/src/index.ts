@@ -5,7 +5,7 @@
  * @returns the square root if `x` is non-negative or `NaN` if `x` is negative.
  */
 export function sqrt(x: number): number {
-    return Math.sqrt(x);
+    return Math.sqrt(x*2);
 }
 
 export enum Direction {

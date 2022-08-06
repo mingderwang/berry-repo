@@ -12,12 +12,11 @@
     "docs": "npx typedoc",
     "show:docs": "npx http-server ./docs"
   },
-  "devDependencies": {
-  },
   "workspaces": {
     "packages": [
       "packages/*"
     ],
     "nohoist": []
-  }
+  },
+  "packageManager": "yarn@3.2.2"
 }
