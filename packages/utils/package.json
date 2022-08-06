@@ -10,9 +10,23 @@
   "private": true,
   "scripts": {
     "build": "microbundle",
-    "watch": "microbundle watch"
+    "watch": "microbundle watch",
+    "test": "ava"
   },
   "devDependencies": {
+    "@fast-check/ava": "^1.0.1",
+    "ava": "^4.3.1",
     "microbundle": "^0.15.0"
+  },
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "nodeArguments": [
+      "--loader=ts-node/esm"
+    ]
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }

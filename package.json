@@ -10,7 +10,8 @@
   },
   "scripts": {
     "docs": "npx typedoc",
-    "show:docs": "npx http-server ./docs"
+    "show:docs": "npx http-server ./docs",
+    "test": "cross-env CI=1 react-scripts test --env=jsdom"
   },
   "workspaces": {
     "packages": [
