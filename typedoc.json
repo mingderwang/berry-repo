@@ -1,6 +1,6 @@
 {
     "$schema": "https://typedoc.org/schema.json",
-    "entryPoints": ["./packages/utils", "./packages/helpers"],
+    "entryPoints": ["./packages/my-package", "./packages/utils", "./packages/helpers"],
     "out": "docs",
     "tsconfig": "./tsconfig.json",
     "entryPointStrategy": "packages"
