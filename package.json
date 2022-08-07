@@ -12,7 +12,8 @@
   "scripts": {
     "docs": "npx typedoc",
     "show:docs": "npx http-server ./docs",
-    "test": "cross-env CI=1 react-scripts test --env=jsdom"
+    "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "fix:esbuild": "cd node_modules && ln -s esbuild-wasm esbuild-darwin-64"
   },
   "workspaces": {
     "packages": [
